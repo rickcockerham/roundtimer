@@ -3,6 +3,7 @@
 A round timer for martial arts/boxing/whatever.
 
 This project is a compact, battery-powered round timer designed for martial arts classes like judo. It uses an Adafruit Trinket M0, an I2C alphanumeric LED display, and a piezo buzzer to provide audible round signals.
+I've included the FreeCad file for the box.
 
 ---
 
