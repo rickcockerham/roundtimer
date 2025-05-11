@@ -107,7 +107,7 @@ void handleButtons() {
   bool startBtn = digitalRead(BUTTON_START);
   bool save = false;
 
-  if (modeBtn == LOW || startBtn == LOW) {
+  if (modeBtn == LOW || startBtn == LOW || timerrunning) {
     lastInteraction = millis();
     sleeping = false;
   }
