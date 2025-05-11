@@ -6,7 +6,7 @@ This project is a compact, battery-powered round timer designed for martial arts
 
 I've included the FreeCad file for the box.
 
-I need distractions while I'm working on my AI at https://ai-stocktrading.com
+I need distractions while I'm working on my AI Stock Trader at https://ai-stocktrading.com
 
 ---
 
