@@ -2,7 +2,7 @@
  
 A round timer for martial arts/boxing/whatever.
 
-This project is a compact, battery-powered round timer designed for martial arts classes like judo. It uses an Adafruit Trinket M0, an I2C alphanumeric LED display, and a piezo buzzer to provide audible round signals.
+This project is a compact, battery-powered round timer designed for martial arts classes like judo. It uses an Adafruit Trinket M0, an I2C alphanumeric LED display, and a piezo buzzer to provide audible round signals.  This is used by us at https://austinjudo.club
 
 I've included the FreeCad file for the box.
 
@@ -31,12 +31,16 @@ I need distractions while I'm working on my AI Stock Trader at https://ai-stockt
 | Component                      | Purpose                            |
 |-------------------------------|------------------------------------|
 | Adafruit Trinket M0           | Main controller                    |
+https://www.adafruit.com/product/3500
 | Adafruit Alphanumeric Display | 4-character countdown display (I²C)|
+https://www.adafruit.com/product/879
 | Piezo buzzer w/ driver        | Audible round signal               |
+https://www.adafruit.com/product/5791
+| USB LiPo charger              | Recharge battery between classes.  |
+https://www.adafruit.com/product/1905
+| Power switch                  | Power off between classes.         |
 | 2x pushbuttons                | Mode and Start/Pause               |
 | LiPo battery (3.7V)           | Power source                       |
-| USB LiPo charger              | Recharge battery between classes.  |
-| Power switch                  | Power off between classes.         |
 
 ---
 
@@ -99,4 +103,4 @@ This project is licensed under the MIT License. Feel free to modify and reuse!
 
 - Adafruit for their Trinket M0 and display libraries.  Lady Ada is awesome!
 - Arduino for platform support
-- The students of Austin Judo Club 🥋
+- The students of Austin Judo Club 🥋  https://austinjudo.club
